@@ -20,14 +20,14 @@ Running the service
 
 2/ bash run.sh
 
-Testing the service
-----------------------------
+##Testing the service
+
 
 1/ create an account with an username and password(username=dilip,password=rebeldilip123)
 
 curl -i -H "Content-Type: application/json" -X POST -d '{"username":"dilip","password":"rebeldilip123"}' http://localhost:5000/todo/api/v1.0/create_account
 
-##in my laptop i have already dilip username
+in my laptop i have already dilip username
 
 HTTP/1.0 201 CREATED
 Content-Type: application/json
@@ -65,8 +65,7 @@ Date: Thu, 12 May 2016 20:46:22 GMT
 
 curl -u dilip:rebeldilip123 -i http://localhost:5000/todo/api/v1.0/tasks 
         -------------------
-
-#Note here that status=0 means completed and status=1 means running
+Note here that status=0 means completed and status=1 means running
 
 HTTP/1.0 200 OK
 Content-Type: application/json
