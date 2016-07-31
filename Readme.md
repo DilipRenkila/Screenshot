@@ -1,12 +1,12 @@
 Installing prequesites
 --------------------------
-1/ execute the install.sh with sudo permissions by the way set mysql password=1.
-                                                               ----------------
+1/ execute the install.sh with sudo permissions by the way set mysql password.
+                                                               
 2/ create a database named 'coding' in mysql.
-                            ------
+                            
 
 Running the service
----------------------------
+
 
 1/ cd coding-api
 
